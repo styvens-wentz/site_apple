@@ -1,0 +1,20 @@
+.ent_nav {
+    background: #484848;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    padding-left: 22%;
+}
+
+ul li {
+    display: inline-block;
+    color: white;
+    margin-left: 2%;
+    margin-right: 3%;
+    transition: color 0.3s;
+}
+
+li:hover {
+    color: rgba(166, 166, 166, 0.71);
+}
